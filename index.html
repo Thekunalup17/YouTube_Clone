@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Homepage Clone | Kunal Upadhyay</title>
+  <!-- Linking Unicons For Icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="sidebar-hidden">
+  <div class="container">
+
+    <!-- Header / Navbar -->
+
+    <header>
+      <nav class="navbar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="images/logo.png" alt="Logo" class="logo-image">
+            <h2 class="logo-text">YouTube</h2>
+          </a>
+        </div>
+        
+        <div class="nav-section nav-center">
+          <form action="#" class="search-form">
+            <input type="search" placeholder="Search" class="search-input" required>
+            <button class="nav-button search-button">
+              <i class="uil uil-search"></i>
+            </button>
+          </form>
+          <button class="nav-button mic-button">
+            <i class="uil uil-microphone"></i>
+          </button>
+        </div>
+        
+        <div class="nav-section nav-right">
+          <button class="nav-button search-button">
+            <i class="uil uil-search"></i>
+          </button>
+          <button class="nav-button theme-button">
+            <i class="uil uil-moon"></i>
+          </button>
+          <img src="images/user.jpg" alt="User Image" class="user-image">
+        </div>
+      </nav>
+    </header>
+    
+    <!-- Main Layout -->
+    <main class="main-layout">
+      <div class="screen-overlay"></div>
+
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="nav-section nav-left">
+          <button class="nav-button menu-button">
+            <i class="uil uil-bars"></i>
+          </button>
+          <a href="#" class="nav-logo">
+            <img src="images/logo.png" alt="Logo" class="logo-image">
+            <h2 class="logo-text">YouTube</h2>
+          </a>
+        </div>
+  
+        <div class="links-container">
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-estate"></i> Home
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-video"></i> Shorts
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-tv-retro"></i> Subscriptions
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <h4 class="section-title">You</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-user-square"></i> Your channel
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-history"></i> History
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-clock"></i> Watch later
+            </a>
+          </div>
+          <div class="section-separator"></div>
+          
+          <div class="link-section">
+            <h4 class="section-title">Explore</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-fire"></i> Trending
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-music"></i> Music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-basketball"></i> Gaming
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-trophy"></i> Sports
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <h4 class="section-title">More from YouTube</h4>
+            <a href="#" class="link-item">
+              <i class="uil uil-shield-plus"></i> YouTube Plus
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-headphones-alt"></i> YouTube Music
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-airplay"></i> YouTube Kids
+            </a>
+          </div>
+          <div class="section-separator"></div>
+  
+          <div class="link-section">
+            <a href="#" class="link-item">
+              <i class="uil uil-setting"></i> Settings
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-file-medical-alt"></i> Report
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-question-circle"></i> Help
+            </a>
+            <a href="#" class="link-item">
+              <i class="uil uil-exclamation-triangle"></i> Feedback
+            </a>
+          </div>
+        </div>
+      </aside>
+  
+      <div class="content-wrapper">
+        <!-- Category List -->
+        <div class="category-list">
+          <button class="category-button active">All</button>
+          <button class="category-button">Punjabi Songs</button>
+          <button class="category-button">Music</button>
+          <button class="category-button">Gaming</button>
+          <button class="category-button">Podcast</button>
+          <button class="category-button">Mixes</button>
+          <button class="category-button">Indian Pop Music</button>
+          <button class="category-button">News</button>
+          <button class="category-button">Web development</button>
+          <button class="category-button">Live</button>
+          <button class="category-button">Gazal</button>
+          <button class="category-button">Web design</button>
+          <button class="category-button">Satsang</button>
+          <button class="category-button">Tailwind</button>
+          <button class="category-button">CSS</button>
+          <button class="category-button">Business Ideas</button>
+        </div>
+        
+        <!-- Video List -->
+        <div class="video-list">
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/Dunali.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">4:50</p>
+            </div>
+            <div class="video-info">
+              <img src="images/HS.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">DONALI - HARKIRAT SANGHA | STARBOY X | RADIOACTIVE [EP]</h2>
+                <p class="channel-name">Harkirat Sangha</p>
+                <p class="views">250K Views • 1 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/Premanand ji maharaj.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">23:45</p>
+            </div>
+            <div class="video-info">
+              <img src="https://m.media-amazon.com/images/I/71h4Q5oPF6L._AC_UF894,1000_QL80_.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">घबराना मत !! जो होगा बहुत अच्छा होगा // आज का सत्संग 13/12/2024 // Premanand Ji Maharaj                </h2>
+                <p class="channel-name">Bhajan Marg</p>
+                <p class="views">30M Views • 2 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/pp.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">20:00</p>
+            </div>
+            <div class="video-info">
+              <img src="images/user.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Create A Responsive Personal Portfolio using HTML CSS and JavaScript</h2>
+                <p class="channel-name">Kunal Upadhyay</p>
+                <p class="views">10K Views • 15 days ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/hSSdc8vKP1I/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">38:45</p>
+            </div>
+            <div class="video-info">
+              <img src="images/user.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Build Hangman Game in HTML CSS and JavaScript</h2>
+                <p class="channel-name">Kunal Upadhyay</p>
+                <p class="views">57K Views • 11 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="https://i.ytimg.com/vi/coj-l7IrwGU/maxresdefault.jpg" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">19:27</p>
+            </div>
+            <div class="video-info">
+              <img src="images/user.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">How to Make Chrome Extension in HTML CSS & JavaScript</h2>
+                <p class="channel-name">Kunal Upadhyay</p>
+                <p class="views">24K Views • 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/Dr Kumar 1.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">16:24</p>
+            </div>
+            <div class="video-info">
+              <img src="https://pbs.twimg.com/profile_images/1525083811750346752/3ynki_So_400x400.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">रावण - अंगद प्रसंग | Dr Kumar Vishwas | अपने-अपने राम | नागपुर</h2>
+                <p class="channel-name">Dr. Kumar Vishwas</p>
+                <p class="views">14.2K Views • 4 days ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/upadhyay ji.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">37:13</p>
+            </div>
+            <div class="video-info">
+              <img src="images/bhaktipath.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Radha Ramanam Hare Hare - Shri Indresh Upadhyay Ji | #BhaktipathAnthem</h2>
+                <p class="channel-name">Bhakti Path</p>
+                <p class="views">1M Views • 1 year ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/timesnow.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">9:27</p>
+            </div>
+            <div class="video-info">
+              <img src="https://w7.pngwing.com/pngs/1016/404/png-transparent-times-now-noida-film-city-television-channel-logo-asianet-newsable-television-blue-text.png" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Trump LIVE | Trump Latest News Live | Donald Trump Makes Big Announcement | Trump Speech | US News</h2>
+                <p class="channel-name">TIMES NOW</p>
+                <p class="views">17K Views • 1 days ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/honey.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">3:30</p>
+            </div>
+            <div class="video-info">
+              <img src="https://i.pinimg.com/564x/6e/3a/f3/6e3af368c2c07e8e739e818c4f91b52d.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">MILLIONAIRE SONG (Full Video): @YoYoHoneySingh | GLORY | BHUSHAN KUMAR</h2>
+                <p class="channel-name">T-Series</p>
+                <p class="views">100M Views • 2 months ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/jonathan.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:17:35</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/vV6NWWS0wQ88Gl8EW6S9MZiK0jc_UAJLjL5-xGXkAQHDq9R-BZAMBeYU6wSaD24jNrmpgOIRpA=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">I STOLE A ROYAL GOLD CAR | GTA 5 GAMEPLAY #156</h2>
+                <p class="channel-name">Jonathan Gaming</p>
+                <p class="views">100k Views • 2 days ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/aajtak.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">LIVE</p>
+            </div>
+            <div class="video-info">
+              <img src="https://yt3.googleusercontent.com/ytc/AIdro_m1WLxquYeEO9VgyA7-cYFrn_hd2dSaNtmL8-NIHMCQIuPQ=s900-c-k-c0x00ffffff-no-rj" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Aaj Tak LIVE TV: Delhi Elections 2025 | Mahakumbh | Ananat Singh | Saif Ali Khan | Hindi News</h2>
+                <p class="channel-name">Aaj Tak</p>
+                <p class="views">7.4K Watching </p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/wion.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">LIVE</p>
+            </div>
+            <div class="video-info">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEFEeBqDckhQ-7xSO8ec9_5j46AXlwV3wekA&s" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">California Wildfire LIVE: San Diego On High Alert As Alarming Brush Fires Rages | LA Wildfires 2025</h2>
+                <p class="channel-name">WION</p>
+                <p class="views">30K Watching </p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/nm.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">2:06:16</p>
+            </div>
+            <div class="video-info">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrG19r0nnqq4pQxU4bPJo4hBNBNPkSu4m32G5cuabKh846-w-7UdnBCD4XSByNORCMDdNTwHdcK3re5BIYNmBxWg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">PM Modi in conversation with ‪@nikhil.kamath‬ #Podcast</h2>
+                <p class="channel-name">Narendra Modi</p>
+                <p class="views">2.5M views • 2 weeks ago</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="video-card">
+            <div class="thumbnail-container">
+              <img src="images/sti.png" alt="Video Thumbnail" class="thumbnail">
+              <p class="duration">1:37:13</p>
+            </div>
+            <div class="video-info">
+              <img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Shark_Tank_India.jpg" alt="Channel Logo" class="icon">
+              <div class="video-details">
+                <h2 class="title">Shark Tank India Season 4 | Streaming Now | Mon-Fri, 8PM | Exclusively on Sony LIV </h2>
+                <p class="channel-name">Shark Tank India</p>
+                <p class="views">1.1M Views • 2 weeks ago</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Linking custom script -->
+  <script src="script.js"></script>
+</body>
+</html>
